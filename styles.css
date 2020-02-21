@@ -13,4 +13,12 @@
 .mouse {
     margin: 238px;
 }
+.description {
+    text-align: center;
+}
+#services{
+    text-align: center;
+    color: white;
+    background-image: url("./img/c_image.jpg");
+}
 
