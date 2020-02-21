@@ -1,0 +1,16 @@
+#head {
+    text-align: center;
+    color: white;
+    background-image: url("./img/h_img.jpg");
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    font-size: larger;
+ }
+.logo{
+    margin-top: 15%;
+}
+.mouse {
+    margin: 238px;
+}
+
