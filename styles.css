@@ -3,7 +3,7 @@
     color: white;
     background-image: url("./img/h_img.jpg");
     background-size: cover;
-    height: 800px;
+    height: 820px;
     width: 100%;
     font-size: larger;
  }
@@ -11,14 +11,19 @@
     margin-top: 15%;
 }
 .mouse {
-    margin: 238px;
+    margin: 290px;
 }
 .description {
     text-align: center;
 }
 #services{
+
     text-align: center;
     color: white;
-    background-image: url("./img/c_image.jpg");
+    background-image: url("./img/s_image.jpg");
+    background-size: cover;
+    height: 380px;
+    width: 100%;
+    padding-top: 120px;
 }
 
