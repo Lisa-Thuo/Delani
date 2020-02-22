@@ -26,4 +26,19 @@
     width: 100%;
     padding-top: 120px;
 }
+.pen {
+    margin-left: 110px;
+}
+.dev {
+    margin-left: 535px;
+}
+.list {
+    margin-left: 490px;
+    margin-bottom: 0.7%;
+}
+h2 {
+    text-align: center;
+}
+
+
 
