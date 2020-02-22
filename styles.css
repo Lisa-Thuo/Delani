@@ -30,14 +30,31 @@
     margin-left: 110px;
 }
 .dev {
-    margin-left: 535px;
+    margin-left: 520px;
 }
 .list {
-    margin-left: 490px;
+    margin-left: 470px;
     margin-bottom: 0.7%;
 }
 h2 {
     text-align: center;
+}
+.work {
+    margin: 80px;
+    height: 210px;
+    width: 210px;
+}
+.ontario{
+    margin: 80px;
+    height: 210px;
+    width: 210px;
+
+}
+
+.blank {
+    margin: 80px;
+    height: 210px;
+    width: 210px;
 }
 
 
