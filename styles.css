@@ -15,9 +15,11 @@
 }
 .description {
     text-align: center;
+    margin-top: 2.5%;
 }
 #services{
-
+    
+    margin-top: 2.5%;
     text-align: center;
     color: white;
     background-image: url("./img/s_image.jpg");
@@ -38,6 +40,7 @@
 }
 h2 {
     text-align: center;
+
 }
 .work {
     margin: 80px;
@@ -66,10 +69,18 @@ h2 {
     color: white;
     margin-bottom: 25%;
     background-image: url("./img/c_image.jpg");
-    height: 700px;
+    width: 100%;
+    height: 685px;
+
+}
+#do{
+    margin-top: 4%;
+}
+.port {
+    margin-top: 6%;
 }
 h6 {
-    text-align: center;
+    text-align: centter;
 }
 #social{
     margin-left: 510px;
