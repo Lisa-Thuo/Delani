@@ -15,9 +15,11 @@
 }
 .description {
     text-align: center;
+    margin-top: 2.5%;
 }
 #services{
-
+    
+    margin-top: 2.5%;
     text-align: center;
     color: white;
     background-image: url("./img/s_image.jpg");
@@ -62,6 +64,9 @@ h2 {
     color: white;
     background-image: url("./img/c_image.jpg");
 
+}
+#do{
+    margin-top: 2.5%;
 }
 
 
