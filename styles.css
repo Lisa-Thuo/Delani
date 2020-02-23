@@ -58,10 +58,15 @@ h2 {
     width: 210px;
 }
 
+.us {
+    margin-bottom: 50%;
+}
+
 #contact {
     color: white;
+    margin-bottom: 25%;
     background-image: url("./img/c_image.jpg");
-
+    height: 700px;
 }
 
 
