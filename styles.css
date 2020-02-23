@@ -68,6 +68,12 @@ h2 {
     background-image: url("./img/c_image.jpg");
     height: 700px;
 }
+h6 {
+    text-align: center;
+}
+#social{
+    margin-left: 510px;
+}
 
 
 
