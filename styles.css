@@ -82,6 +82,15 @@ h6 {
     padding: 20px;
     margin-top: 2%;
 }
+.pen-hidden{
+    display: none;
+}
+.praise{
+    display: none;
+}
+.plan{
+    display: none;
+}
 
 
 
