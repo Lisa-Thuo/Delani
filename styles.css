@@ -28,16 +28,7 @@
     width: 100%;
     padding-top: 120px;
 }
-.pen {
-    margin-left: 110px;
-}
-.dev {
-    margin-left: 520px;
-}
-.list {
-    margin-left: 470px;
-    margin-bottom: 0.7%;
-}
+
 h2 {
     text-align: center;
 
@@ -68,9 +59,7 @@ h2 {
     height: 685px;
 
 }
-#do{
-    margin-top: 4%;
-}
+
 .port {
     margin-top: 4%;
 }
@@ -82,14 +71,40 @@ h6 {
     padding: 20px;
     margin-top: 2%;
 }
+.img1  {
+    padding-left: 20vh;
+}
+.img2 {
+    padding-left: 25vh;
+}
+.img3 {
+    padding-left: 30vh;
+}
+.we {
+    margin-top: 4%;
+}
 .pen-hidden{
     display: none;
 }
-.praise{
+.list-hidden{
     display: none;
 }
-.plan{
+.dev-hidden{
     display: none;
+}
+#Message {
+    width: 50%;
+    padding-bottom: 300px;
+    margin-left: 450px;
+    background: transparent
+}
+#NN {
+    margin-left: 550px;
+    background: transparent;
+}
+#EM {
+    margin-right: 250px;
+    background: transparent;
 }
 
 
