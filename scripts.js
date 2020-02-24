@@ -16,6 +16,15 @@ $(document).ready(function(){
     $(".list-hidden").toggle();
   });
 });
+$(document).ready(function(){
+  $(".gray").click(function(){
+    $(".blank-showing").toggle();
+    $(".blank-hidden").toggle();
+  });
+});
+
+
+
 
 
 

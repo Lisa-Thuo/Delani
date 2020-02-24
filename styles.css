@@ -28,28 +28,8 @@
     width: 100%;
     padding-top: 120px;
 }
-
-h2 {
+h2{
     text-align: center;
-
-}
-.work {
-    margin: 80px;
-    height: 210px;
-    width: 210px;
-}
-
-.blank {
-    margin: 80px;
-    height: 210px;
-    width: 210px;
-
-}
-
-.day {
-    margin: 80px;
-    height: 210px;
-    width: 210px;
 }
 
 #contact {
@@ -92,6 +72,63 @@ h6 {
 .dev-hidden{
     display: none;
 }
+
+.port {
+    margin-top: 4%;
+}.blank-showing{
+   margin-left: 200px;
+   padding-bottom: 5%;
+}
+.blank-hidden{
+    display: none;
+}
+.ontario-showing{
+    margin-left: 100px;
+}
+.ontario-hidden{
+    display: none;
+}
+.orange-hidden{
+    display: none;
+}
+.hair-showing{
+    margin-left: -100px;
+}
+.hair-hidden{
+    display: none;
+}
+.elena-showing{
+    margin-left: 200px;
+    padding-bottom: 15%;
+ }
+ .elena-hidden{
+     display: none;
+ }
+ .button-showing{
+    margin-left: 100px;
+}
+.button-hidden{
+    display: none;
+}
+.burned-hidden{
+    display: none;
+}
+.giraffe-showing{
+    margin-left: -100px;
+}
+.giraffe-hidden{
+    display: none;
+}
+
+h6 {
+    text-align: center;
+}
+#social {
+    margin-left: 500px;
+    padding: 20px;
+    margin-top: 2%;
+}
+
 #Message {
     width: 50%;
     padding-bottom: 300px;
@@ -106,6 +143,7 @@ h6 {
     margin-right: 250px;
     background: transparent;
 }
+
 
 
 
