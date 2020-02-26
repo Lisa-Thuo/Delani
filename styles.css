@@ -28,37 +28,8 @@
     width: 100%;
     padding-top: 120px;
 }
-.pen {
-    margin-left: 110px;
-}
-.dev {
-    margin-left: 520px;
-}
-.list {
-    margin-left: 470px;
-    margin-bottom: 0.7%;
-}
-h2 {
+h2{
     text-align: center;
-
-}
-.work {
-    margin: 80px;
-    height: 210px;
-    width: 210px;
-}
-
-.blank {
-    margin: 80px;
-    height: 210px;
-    width: 210px;
-
-}
-
-.day {
-    margin: 80px;
-    height: 210px;
-    width: 210px;
 }
 
 #contact {
@@ -68,9 +39,7 @@ h2 {
     height: 685px;
 
 }
-#do{
-    margin-top: 4%;
-}
+
 .port {
     margin-top: 4%;
 }
@@ -82,14 +51,102 @@ h6 {
     padding: 20px;
     margin-top: 2%;
 }
+.img1  {
+    padding-left: 20vh;
+}
+.img2 {
+    padding-left: 25vh;
+}
+.img3 {
+    padding-left: 30vh;
+}
+.we {
+    margin-top: 4%;
+}
 .pen-hidden{
     display: none;
 }
-.praise{
+.list-hidden{
     display: none;
 }
-.plan{
+.dev-hidden{
     display: none;
 }
+
+.port {
+    margin-top: 4%;
+}.gray{
+   margin-left: 200px;
+   padding-bottom: 5%;
+}
+.blank-hidden{
+    display: none;
+}
+.ontario{
+    margin-left: 100px;
+}
+.ontario-hidden{
+    display: none;
+}
+.orange-hidden{
+    display: none;
+}
+.hair{
+    margin-left: -100px;
+}
+.hair-hidden{
+    display: none;
+}
+.elena{
+    margin-left: 200px;
+    padding-bottom: 15%;
+ }
+ .elena-hidden{
+     display: none;
+ }
+ .button{
+    margin-left: 100px;
+}
+.button-hidden{
+    display: none;
+}
+.burned-hidden{
+    display: none;
+}
+.giraffe{
+    margin-left: -100px;
+}
+.giraffe-hidden{
+    display: none;
+}
+
+h6 {
+    text-align: center;
+}
+#social {
+    margin-left: 500px;
+    padding: 20px;
+    margin-top: 2%;
+}
+
+#Message {
+    width: 50%;
+    padding-bottom: 300px;
+    margin-left: 450px;
+    background: transparent
+}
+#NN {
+    margin-left: 550px;
+    background: transparent;
+}
+#EM {
+    margin-right: 250px;
+    background: transparent;
+}
+.sub {
+    background: transparent;
+    color: white;
+}
+
 
 
