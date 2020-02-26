@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Delani Studio</title>
-        <script src="scripts.js"></script>
-        <script src= "./js/jquery.js"></script>
-        <link href="styles.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css" type="text/css" media="all">  
-    </head>
-    <body>
-        <form>
-        <div id="head">
-                <img class="logo"src="img/logo.png">
-                <h1>Welcome<br>To Delani Studio</h1>
-                <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FULL ENVIROMENT</p>
 
-                <img class="mouse"src="img/mouse_click.jpg">
+<head>
+    <title>Delani Studio</title>
+    <script src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css" type="text/css" media="all">
+
+</head>
+
+<body>
+    <form>
+        <div id="head">
+            <img class="logo" src="img/logo.png">
+            <h1>Welcome<br>To Delani Studio</h1>
+            <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FULL ENVIROMENT</p>
+
+            <img class="mouse" src="img/mouse_click.jpg">
         </div>
-        </form> 
-        <div class="description">
+    </form>
+    <div class="description">
         <h2>About Us</h2>
-        
-        <p>When you work with us, you are part of a team of commited collaborators. All aspects of our software development processes are integrated, interactive,<br>and agile</p>
+
+        <p>When you work with us, you are part of a team of commited collaborators. All aspects of our software
+            development processes are integrated, interactive,<br>and agile</p>
 
         <p>Our approach unifies design, development, and product management to create exceptional products.</p>
-        
+
         <p>We start each project by understanding your business goals, the user's needs, and the product requirments</p>
 
         <p>Then we help translate them into effective and elegant solutions</p>
@@ -31,71 +36,183 @@
     <div id="services">
         <h2>Services</h2>
 
-        <p>Before we sign a contract or write a line of code, our team will spend the necessary time to understand your product vision</p>
+        <p>Before we sign a contract or write a line of code, our team will spend the necessary time to understand your
+            product vision</p>
 
         <p>The outcome of this scoping session is in proposal or high-level statement of work.</p>
 
         <p>Based on your requirments, we can provide a complete offering or just the pieces you need</p>
     </div>
 
-    <form>
-    <div id="do">
-    <h2>WHAT WE DO</h2>
-        <img class="pen-showing"src="img/design_icon.png">
-        <div class="pen-hidden">
-        <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-        Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
-        </div>
-        <img class="dev"src="img/dev_icon.png">
-        <div class="praise">
-        <p>
-        All engineers are fluent in the latest enterprise, mobile and web development technologies.
-        They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
-        </div>
-        <img class="list" src="img/product_icon.png">
-        <div class="plan">
-        <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
-        This iterative process allows for changes as business requirements evolve.
-        </p>
+    <div class="container-fluid">
+        <h2 class="we">WHAT WE DO</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="do">
+
+                    <div class="pen-showing">
+                        <span class="img1"><img src="img/design_icon.png"></span>
+                    </div>
+                    <div class="pen-hidden">
+                        <p>Our design practice offers a full range of services including brand strategy, interaction and
+                            visual design and user experience testing.
+                            Throughout your project, our designers create and implement visual design and workflows,
+                            solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="dev">
+                    <div class="dev-showing">
+                        <span class="img2"><img src="img/dev_icon.png"></span>
+                    </div>
+                    <div class="dev-hidden">
+                        <p>
+                            All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                            They collaborate with your team to write, and improve code on a daily basis, using proven
+                            practices such as test-driven development and pair programming.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="list">
+                    <div class="list-showing">
+                        <span class="img3"><img src="img/product_icon.png"></span>
+                    </div>
+                    <div class="list-hidden">
+                        <p>Planning and development is iterative. Because we are constantly coding and testing, the
+                            products we build are always ready to go live.
+                            This iterative process allows for changes as business requirements evolve.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div= id="portfolio">
     <h2 class="port">PORTFOLIO</h2>
-        <img class="blank"src="img/work4.jpg">
-        <img class="work" src="img/work3.jpg">
-        <img class="work" src="img/work2.jpg">
-        <img class="work" src="img/work1.jpg">
-        <img class="day" src="img/work5.jpg">
-        <img class="work" src="img/work6.jpg">
-        <img class="work" src="img/work7.jpg">
-        <img class="work" src="img/work8.jpg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="gray">
+                    <div class="blank-showing">
+                        <img src="img/work4.jpg" height="220px" width="250px">
+                    </div>
+
+                    <div class="blank-hidden">
+                        <p>Gray Project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="ontario">
+                    <div class="ontario-showing">
+                        <img src="img/work3.jpg" height="220px" width="250px">
+                    </div>
+                    <div class="ontario-hidden">
+                        <p>Ontario Project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="orange">
+                    <div class="orange-showing">
+                        <img src="img/work2.jpg" height="220px" width="250px">
+                    </div>
+                    <div class="orange-hidden">
+                        <p>Orange Project</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="hair">
+                    <div class="hair-showing">
+                        <img src="img/work1.jpg" height="220px" width="250px">
+                    </div>
+                    <div class="hair-hidden">
+                        <p>Jim Carry Project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="elena">
+                    <div class="elena-showing">
+                        <img src="img/work5.jpg" height="220px" width="250px">
+                    </div>
+                    <div class="elena-hidden">
+                        <p>Elena Project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="button">
+                    <div class="button-showing">
+                        <img src="img/work6.jpg" height="220px" width="250px">
+                    </div>
+                    <div class="button-hidden">
+                        <p>Button Project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="burned">
+                    <div class="burned-showing">
+                        <img src="img/work7.jpg" height="220px" width="250px">
+                    </div>
+                    <div class="burned-hidden">
+                        <p>Burn Project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="giraffe">
+                    <div class="giraffe-showing">
+                        <img src="img/work8.jpg" height="220px" width="250px">
+                    </div>
+                    <div class="giraffe-hidden">
+                        <p>Giraffe Project</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="contact">
         <h2>CONTACT US</h2>
+        <form>
+            <input type="text" id="NN" class="name" placeholder="Name...">
+            <input type="email" id="EM" class="mail" placeholder="Email..."><br>
+            <input type="text" id="Message" class="message" placeholder="Your message here...">
+            <button type="button" onclick="submit()" class="sub">submit</button>
+
+        </form>
 
     </div>
 
     <div id="social">
-        <img class="twitter"src="img/twitter.png">
-        <img class="ball"src="img/dribble.png">
+        <img class="twitter" src="img/twitter.png">
+        <img class="ball" src="img/dribble.png">
         <img class="fb" src="img/facebook.png">
-        <img class="google"src="img/g_plus.png">
-        <img class="skype"src="img/skype.png">
-        <img class="worm"src="img/stumble_upon.png">
-        <img class="be"src="img/behance.png">
-        <img class="pint"src="img/pinterest.png">
-        <img class="dot"src="img/flickr.png">
+        <img class="google" src="img/g_plus.png">
+        <img class="skype" src="img/skype.png">
+        <img class="worm" src="img/stumble_upon.png">
+        <img class="be" src="img/behance.png">
+        <img class="pint" src="img/pinterest.png">
+        <img class="dot" src="img/flickr.png">
     </div>
     </form>
     <h6>Delani Studio<br>2019</h5>
 
         <a href="README.md">readme</a>
-    
-    
-    
 
-    </body>
-    
+        <script src="./scripts.js"></script>
+        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/bf258f3a094260714c5664b10/c0d9f482061153ab6bb20de87.js");</script>
+
+
+</body>
+
 </html>
