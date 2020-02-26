@@ -75,14 +75,14 @@ h6 {
 
 .port {
     margin-top: 4%;
-}.blank-showing{
+}.gray{
    margin-left: 200px;
    padding-bottom: 5%;
 }
 .blank-hidden{
     display: none;
 }
-.ontario-showing{
+.ontario{
     margin-left: 100px;
 }
 .ontario-hidden{
@@ -91,20 +91,20 @@ h6 {
 .orange-hidden{
     display: none;
 }
-.hair-showing{
+.hair{
     margin-left: -100px;
 }
 .hair-hidden{
     display: none;
 }
-.elena-showing{
+.elena{
     margin-left: 200px;
     padding-bottom: 15%;
  }
  .elena-hidden{
      display: none;
  }
- .button-showing{
+ .button{
     margin-left: 100px;
 }
 .button-hidden{
@@ -113,7 +113,7 @@ h6 {
 .burned-hidden{
     display: none;
 }
-.giraffe-showing{
+.giraffe{
     margin-left: -100px;
 }
 .giraffe-hidden{
@@ -143,6 +143,12 @@ h6 {
     margin-right: 250px;
     background: transparent;
 }
+.sub {
+    background: transparent;
+    color: white;
+}
+
+
 
 
 
