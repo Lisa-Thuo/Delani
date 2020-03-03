@@ -3,12 +3,11 @@
 
 <head>
     <title>Delani Studio</title>
-    <script src="scripts.js"></script>
+    <script src="js/scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <link href="styles.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css" type="text/css" media="all">
-
 </head>
 
 <body>
@@ -182,12 +181,16 @@
     </div>
 
     <div id="contact">
-        <h2>CONTACT US</h2>
-        <form>
-            <input type="text" id="NN" class="name" placeholder="Name...">
-            <input type="email" id="EM" class="mail" placeholder="Email..."><br>
-            <input type="text" id="Message" class="message" placeholder="Your message here...">
-            <button type="button" onclick="submit()" class="sub">submit</button>
+        <div class="contactTitle">
+            <h2>CONTACT US</h2>
+        </div>
+        
+        <form style="height:600px">
+            <input type="text" id="NN" class="name" placeholder="Name..." style="color: white;">
+            <input type="email" id="EM" class="mail" placeholder="Email...">
+            <div class="say">
+                <input type="text" id="MM" class="message" placeholder="Your message here...">
+                <button onclick="submit" id="sub" style="height:20px">submit</button>
 
         </form>
 
@@ -204,15 +207,14 @@
         <img class="pint" src="img/pinterest.png">
         <img class="dot" src="img/flickr.png">
     </div>
-    </form>
-    <h6>Delani Studio<br>2019</h5>
 
-        <a href="README.md">readme</a>
+    <h6>Delani Studio<br>2019</h6>
 
-        <script src="./scripts.js"></script>
-        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/bf258f3a094260714c5664b10/c0d9f482061153ab6bb20de87.js");</script>
+    <script>
+        id = "mcjs" > !function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/bf258f3a094260714c5664b10/c0d9f482061153ab6bb20de87.js");</script>
+    <script src="js/scripts.js"></script>
+    </div>
 
 
-</body>
 
 </html>
