@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
   $(".do").click(function () {
     $(".pen-showing").toggle();
@@ -85,27 +86,24 @@ $(document).ready(function () {
   });
 });
 
-function getInput(){
+function getInput() {
   var name = (document.getElementsByClassName("name").value);
   var mail = (document.getElementsByClassName("email").value);
   var message = (document.getElementsByClassName("message").value);
-  
 
-  if (name=="") {
-    alert("Please give your name")
+
+  if (name == "") {
+    alert("Please give your name");
   }
-  else if (mail==""){
-    alert("Please enter your email")
-   if (message=="") {
-    alert("Please write a message")
+  else if (mail == "") {
+    alert("Please enter your email");
   }
+  else if (message == "") {
+    alert("Please write a message");
   }
-  else if (isNaN(name)||(isNaN(mail)||(isNaN(message)))) {
-    alert("Please input the proper details!")
-  }
+
   else {
-    alert(name + " Thanks for sharing");
+    alert(" Thanks for sharing");
   }
 };
-(function(){if(!window.$mcSite){$mcSite={};}})();
 
