@@ -51,7 +51,7 @@ $(document).ready(function(){
     $(".giraffe-hidden").toggle();
   });
   
-  
+  (function(){if(!window.$mcSite){$mcSite={};}})();
   
   
   

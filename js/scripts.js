@@ -107,4 +107,5 @@ function getInput(){
     alert(name + " Thanks for sharing");
   }
 };
+(function(){if(!window.$mcSite){$mcSite={};}})();
 
